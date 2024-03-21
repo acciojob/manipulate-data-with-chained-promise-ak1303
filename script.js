@@ -16,13 +16,13 @@ promise.then((data)=>{
 		setTimeout(()=>res(nums),1000); 
 	})
 }).then((nums)=>{
-		let text=nums.join(", "); 
+		let text=nums.join(","); 
 		output.innerHTML = text;
 		nums = nums.map(num=>multiplyBy2(num));
 		return new Promise((res,rej)=>{
 			setTimeout(()=>res(nums),1000);
 			})
 }).then((nums)=>{
-	let text = nums.join(", ");
+	let text = nums.join(",");
 	output.innerHTML = text;
 })
