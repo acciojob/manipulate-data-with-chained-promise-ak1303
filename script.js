@@ -1,7 +1,7 @@
 //your JS code here. If required.
 let output = document.getElementById('output');
 let arr = [1,2,3,4];
-function even(num){
+function even(num){ 
 	return num%2==0;
 }
 function multiplyBy2(num){
